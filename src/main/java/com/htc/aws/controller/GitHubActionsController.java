@@ -8,7 +8,7 @@ public class GitHubActionsController {
 
 	@RequestMapping("/Welcome")
 	public String Common() {
-		String Message = "Deployment of Spring Boot with GitHub Actions";
+		String Message = "Deployment of Spring Boot with GitHub Actions Successfully into AWS EC2";
 		return Message;
 		
 	}
