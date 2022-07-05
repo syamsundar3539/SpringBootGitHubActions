@@ -57,4 +57,4 @@ jobs:
             sudo yum -y install java-1.8.0
             wget https://sbawsdeployment.s3.ap-south-1.amazonaws.com/GitHubActionsDeployment-0.0.1-SNAPSHOT.jar
             ls 
-            java -jar GitHubActions-0.0.1-SNAPSHOT.jar
+            java -jar GitHubActionsDeployment-0.0.1-SNAPSHOT.jar
